@@ -8,6 +8,9 @@ body{
 h3{
     margin: 0px;
 }
+img{
+    padding-left: 10px;
+}
 .logo{
     position: absolute;
     width: 151px;
@@ -57,7 +60,7 @@ h3{
     text-decoration: none;
     color: #000;
 }
-a:hover{
+/* a:hover{
     position: absolute;
     width: 170px;
     height: 48px;
@@ -66,8 +69,8 @@ a:hover{
     background: rgba(164, 143, 218, 0.1);
     border: 1px solid #A48FDA;
     box-sizing: border-box;
-    border-radius: 8px;
-}
+    border-radius: 8px; */
+
 .reciept{
     position: absolute;
     width: 133px;
