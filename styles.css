@@ -5,6 +5,9 @@ body{
     background: #FFFFFF;
     background: url(images/bg.svg);
 }
+h3{
+    margin: 0px;
+}
 .logo{
     position: absolute;
     width: 151px;
@@ -73,4 +76,32 @@ a:hover{
     top: 72px;
     text-decoration: none;
     color: #A48FDA;
+}
+.container{
+    position: absolute;
+    width: 400px;
+    height: 289px;
+    left: 100px;
+    top: 275px;
+}
+.heavy{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color:#000;
+    margin-bottom: 16px;
+}
+.normal{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #000;
+    opacity: 0.75;
+    margin-top: 0px;
 }
