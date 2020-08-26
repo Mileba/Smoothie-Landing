@@ -105,3 +105,19 @@ a:hover{
     opacity: 0.75;
     margin-top: 0px;
 }
+.small{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-weight: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color:#000;
+}
+.img-container{
+    position: absolute;
+    left: 47.71%;
+    right: 4.03%;
+    top: 20.67%;
+    bottom: 27.44%;
+}
