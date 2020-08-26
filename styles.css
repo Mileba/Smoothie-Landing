@@ -1,26 +1,76 @@
 body{
-    /* position: absolute; */
-    /* width: 2000px;
-    height: 2415px;
-    left: -280px;
-    top: -668px; */
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
     background: url(images/bg.svg);
 }
-.header{
+.logo{
     position: absolute;
     width: 151px;
     height: 43px;
     left: 100px;
     top: 60px;
-
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 43px;
-    /* identical to box height */
-
-
     color: #A48FDA;
+}
+.link{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+.how-to{
+    position: absolute;
+    width: 54px;
+    height: 19px;
+    left: 872px;
+    top: 72px;
+    text-decoration: none;
+    color: #000;
+}
+.events{
+    position: absolute;
+    width: 53px;
+    height: 19px;
+    left: 971px;
+    top: 72px;
+    text-decoration: none;
+    color: #000;
 
+}
+.hotline{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 1069px;
+    top: 72px;
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    left: 1170px;
+    top: 58px;
+    background: rgba(164, 143, 218, 0.1);
+    border: 1px solid #A48FDA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.reciept{
+    position: absolute;
+    width: 133px;
+    height: 19px;
+    left: 1189px;
+    top: 72px;
+    text-decoration: none;
+    color: #A48FDA;
 }
