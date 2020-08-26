@@ -1,0 +1,26 @@
+body{
+    /* position: absolute; */
+    /* width: 2000px;
+    height: 2415px;
+    left: -280px;
+    top: -668px; */
+    background: url(images/bg.svg);
+}
+.header{
+    position: absolute;
+    width: 151px;
+    height: 43px;
+    left: 100px;
+    top: 60px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    /* identical to box height */
+
+
+    color: #A48FDA;
+
+}
