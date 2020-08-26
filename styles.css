@@ -60,16 +60,6 @@ img{
     text-decoration: none;
     color: #000;
 }
-/* a:hover{
-    position: absolute;
-    width: 170px;
-    height: 48px;
-    left: 1170px;
-    top: 58px;
-    background: rgba(164, 143, 218, 0.1);
-    border: 1px solid #A48FDA;
-    box-sizing: border-box;
-    border-radius: 8px; */
 
 .reciept{
     position: absolute;
