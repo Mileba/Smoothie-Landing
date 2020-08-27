@@ -84,7 +84,7 @@ img{
     font-size: 48px;
     line-height: 57px;
     letter-spacing: 0.02em;
-    color:#000;
+    color: #121212;
     margin-bottom: 16px;
 }
 .normal{
@@ -94,9 +94,10 @@ img{
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.02em;
-    color: #000;
+    color: #121212;
     opacity: 0.75;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 .small{
     font-family: 'Rubik';
@@ -106,6 +107,7 @@ img{
     line-height: 19px;
     letter-spacing: 0.02em;
     color:#000;
+    margin-top: 56px;
 }
 .img-container{
     position: absolute;
@@ -113,4 +115,24 @@ img{
     right: 4.03%;
     top: 20.67%;
     bottom: 27.44%;
+}
+
+@media (max-width: 375px){
+    .img-container{
+        position: absolute;
+        left: 3.47%;
+        right: 3.5%;
+        top: 52.96%;
+        bottom: 18.17%;
+    }
+    .container{
+        position: absolute;
+        width: 335px;
+        height: 222px;
+        left: 20px;
+        top: 136px;
+    }
+    .link{
+        visibility: hidden;
+    }
 }
