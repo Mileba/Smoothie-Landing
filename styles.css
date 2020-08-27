@@ -11,6 +11,9 @@ h3{
 img{
     padding-left: 10px;
 }
+.hamburger{
+    visibility: hidden;
+}
 .logo{
     position: absolute;
     width: 151px;
@@ -117,13 +120,26 @@ img{
     bottom: 27.44%;
 }
 
-@media (max-width: 375px){
+@media (max-width: 425px){
+    body{
+        position: relative;
+        width: 425px;
+        height: 817px;
+    }
+    .logo{
+        position: absolute;
+        width: 114px;
+        height: 32px;
+        left: 20px;
+        top: 32px;
+    }
     .img-container{
         position: absolute;
         left: 3.47%;
         right: 3.5%;
         top: 52.96%;
         bottom: 18.17%;
+        margin-top: 36px;
     }
     .container{
         position: absolute;
@@ -131,8 +147,44 @@ img{
         height: 222px;
         left: 20px;
         top: 136px;
+        margin-bottom: 36px;
     }
     .link{
-        visibility: hidden;
+        display: none;
+    }
+    .hamburger{
+        visibility: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 378px;
+        top: 36px;
+        margin-top: 10px;
+    }
+    .heavy{
+        position: absolute;
+        width: 335px;
+        height: 86px;
+        /* left: 20px;
+        top: 136px; */
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 0px;
+    }
+    .normal{
+        position: absolute;
+        width: 335px;
+        height: 63px;
+        /* left: 20px; */
+        top: 100px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .small{
+        position: absolute;
+        width: 335px;
+        height: 63px;
+        left: 20px;
+        top: 238px;
     }
 }
